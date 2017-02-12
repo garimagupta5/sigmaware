@@ -1,0 +1,151 @@
+#home{
+  height:700px;
+  background: url("http://www.signoraware.com/media/responsivebannerslider/responsivebannerslider/banner-01.jpg") no-repeat;
+  background-size: cover;
+}
+#home h1{
+ padding-top: 110px;
+ text-align: center;
+ font-family: 'Bungee Inline';
+ color: #d9534f;
+ font-size: 10em;
+}
+#home h4{
+  text-align: center;
+  font-family: 'Bungee Inline';font-size: 40px;
+  color:#d9534f;
+}
+#home button{
+  margin-left: 65%;
+  margin-top: 10px;
+  width:150px;
+  border: 20px;
+  border-radius: 40px;
+}
+#productrange p{
+  font-size: 19px;
+  text-align: center;
+}
+#productrange button{
+  color: #e8e8e8;
+  background-color: rgba(0,0,0,.5);
+  border:1px solid grey;
+  border-radius:700px;
+  border-color: #a94442;
+  align-items: center;
+}
+#productrange img{
+  width:95%;
+  border-radius: 70px;
+  border-color: #d9edf7;
+}
+ h3{
+  font-size: 60px;
+  text-align: center;
+  color: blue;
+}
+h4{
+  font-size: 30px;
+  font-family:sans-serif;
+  padding-left: 15px;
+}
+p{
+  font-size:17px;
+  font-family: serif;
+  padding-left: 10px;
+}
+ li{
+  font-size:17px;
+  font-family: serif;
+  padding-left: 10px;
+}
+p{                            //
+  font-family: serif;
+  padding-left: 10px;
+}
+img {
+  width: 80%;
+  margin:10px 20px;
+  border:3px solid brown;
+  border-radius: 10px;
+}
+#meetourteam img{
+  width: 52%;
+    margin: 20px 30px;
+    border: 3px solid brown;
+    border-radius: 95px;
+}
+#meetourteam {
+  text-align:
+  font-size: 20px;
+  padding-left: 30px;
+}
+#meetourteam i{
+  display: inline-block;
+   font-size: larger;
+   margin: 30px;
+   text-rendering: auto;
+   -webkit-font-smoothing: antialiased;
+
+}
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+#aboutsigmaware p{
+  font-size: 20px;
+  font-family: 'Bungee Inline';
+
+}
+.i{
+  align-items: center;
+  border: 2px;
+  border-radius: 20%;
+}
+#map {
+   width: 100%;
+   height: 550px;
+   background-color: white;
+}
+input{
+    width:100%;
+    height:50px;
+}
+.glyphicon {
+    margin-left: 30px;
+    top: 1px;
+    display: inline;
+    font-family: 'Glyphicons Halflings';
+    font-size: 50px;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    border:20px;
+    border-radius: 40px;
+}
+.footer{
+  background-color: black;
+  color: #dc4453;
+
+}
+.footer ul li {
+  list-style-type:  none
+
+}
+.footer ul li a {
+  color: #239dcc;
+}
+@media screen and (max-width: 600px) {
+  .footer {
+   padding:  10px;
+  }
+  #home h1 {
+    font-size: 36px;
+  }
+  #home {
+    background: none;
+    height: auto;
+  }
+}
